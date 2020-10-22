@@ -27,10 +27,7 @@ var App = /** @class */ (function () {
         });
         if (isDevEnv) {
             App.mainWindow.webContents.openDevTools();
-            require('electron-reload')(__dirname, {
-                electron: require(path.join(process.cwd(), 'node_modules', 'electron'))
-            });
-            App.mainWindow.loadURL('http://localhost:4200');
+            App.mainWindow.loadURL('http://localhost:8080');
         }
         else {
             App.mainWindow.loadURL(url.format({

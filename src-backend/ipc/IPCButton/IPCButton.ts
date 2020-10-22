@@ -1,6 +1,4 @@
 import { ipcMain, IpcMainEvent } from 'electron';
-import * as path from 'path';
-import App from '../../core/App';
 
 export class IPCButton {
   constructor() {

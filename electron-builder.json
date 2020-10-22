@@ -1,5 +1,5 @@
 {
-  "productName": "angular-rust-electron",
+  "productName": "vue-electron",
   "directories": {
     "output": "release/"
   },
